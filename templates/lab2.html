@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% block content %}
+
+    <div id="main">
+        <h6 id="Top">Jump to:</h6>
+        <ul class="jump">
+            <li><a href="#Goal">Goal</a></li>
+            <li><a href="#Theory">Theory</a></li>
+            <li><a href="#Procedure">Procedure</a></li>
+            <li><a href="#Analysis">Analysis</a></li>
+            <li><a href="#Conclusion">Conclusion</a></li>
+        </ul>
+        <h2 >Estimating the Calorie Content of Nuts</h2>
+        <h3 id="Goal">Goal</h3>
+        <p>
+            Estimate the calorie content of various nuts by constructing and using a simple calorimeter.
+        </p>
+        <h3 id="Theory">Theory</h3>
+        <p>
+          The heat of combustion of the nut will be measured by using a calorimeter. Based on the specific heat of water,
+          the mass of the water, and the change in temperature of the water, determine the amount of energy was released
+          due to combustion will be determined. Dividing that result by the mass of the nut burned will then allow the
+          amount of Calories per gram to be determined.
+        </p>
+        <h3 id="Procedure">Procedure</h3>
+            <ol>
+                <li>Construct a nut support stand using a paper clip and a cork, creating a raised support to hold the nut.</li>
+                <li>Suspend an empty soda can 1-2 cm above the nut support stand. </li>
+                <li>Measure and add 200.0 mL of room temperature water to the can. </li>
+                <li>Insert a thermometer through the opening, taking care to ensure the thermometer does not touch the sides
+                 or bottom of the can.</li>
+                <li>Record the initial water temperature.</li>
+                <li>Measure and record the mass of the nut.</li>
+                <li>Transfer the nut to the support stand and ignite the nut.</li>
+                <li>Immediately after the nut stops burning, stir the water in the can with the thermometer.</li>
+                <li>Record the water temperature.</li>
+                <li>Allow the nut residue to cool, then measure and record its mass.</li>
+                <li>Repeat steps 1-10 with various nuts.</li>
+            </ol>
+        <h3 id="Analysis">Analysis</h3>
+            <ul>
+                <li>Possible sources of systematic error include:
+                    <ul>
+                        <li>Some of the heat of combustion may have been lost to the surroundings, and did not
+                            directly heat the water, affecting the calculations slightly.</li>
+                        <li>The scale used to measure the mass of the nut may not have been not perfectly accurate.</li>
+                    </ul>
+                </li>
+                <li>Possible sources of human error include:
+                    <ul>
+                        <li>A minute quantity of nut residue was left on or around the support stand and was not measured,
+                            slightly decreasing the accuracy of the determined mass of the nut burned.</li>
+                    </ul>
+                </li>
+            </ul>
+        <h3 id="Conclusion">Conclusion</h3>
+        <p>
+            The heat energy produced from the combustion of cashews and almonds was calculated, allowing the average
+            amount of calories per gram of each type of nut to be determined. Cashews were found to be 3.5 Calories per
+            gram, and almonds 3.3 Calories per gram
+        </p>
+        <a class="jump" href="#Top">Back to Top</a>
+     </div>
+{% endblock %}

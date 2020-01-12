@@ -1,0 +1,89 @@
+nav {
+    text-align:left;
+    background: #efefef url("../images/Blue-chem.jpg");
+    opacity: 70%;
+    position: fixed;
+    top: 0;
+    left:0;
+    width:100%;
+    height:88px;
+    z-index: 10;
+}
+nav li {
+    display:inline;
+    margin:10px;
+}
+nav li a, nav li a:visited {
+    color:#40b7ab;
+    text-transform:uppercase;
+    padding: 10px;
+    background-color:white;
+}
+body {
+    font-family: "Levenim MT", sans-serif;
+    padding-top: 88px;
+    min-width: 200px;
+    background-color: rgba(255, 135, 175, 0.03);
+}
+#main {
+    width: 100%;
+    padding: 20px;
+}
+p, ul, ol {
+    text-align:left;
+    padding: 20px;
+    margin: auto;
+}
+ol, ul{
+    list-style-position: inside;
+}
+h1{
+    font-weight: bolder;
+    color: darkslategray;
+    text-align: center;
+
+}
+h2{
+    color:slategray;
+    font-stretch: ultra-condensed;
+    font-weight:bold;
+    text-align: center;
+}
+
+h3 {
+    color: #40b7ab;
+    font-stretch: ultra-condensed;
+    font-weight:normal;
+    margin-left: 10px;
+
+}
+h6{
+    color:slategray;
+    font-weight: lighter;
+
+}
+ul.jump li{
+    display: inline;
+}
+
+ul.jump li a, ul li a{
+    color:#40b7ab;
+    margin-left:10px;
+    font-weight: lighter;
+}
+ul.jump li a:hover,ul li a:hover, a.jump:hover {
+    color:slategray;
+    text-decoration:underline;
+
+}
+
+a.jump{
+    color:#40b7ab;
+
+}
+:target:before {
+content:"";
+display:block;
+height:100px; /* fixed header height*/
+margin:-100px 0 0; /* negative fixed header height */
+}

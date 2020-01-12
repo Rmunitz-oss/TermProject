@@ -1,0 +1,91 @@
+
+{% extends "base.html" %}
+{% block content %}
+
+    <div id="main">
+        <h6 id="Top">Jump to:</h6>
+            <ul class="jump" >
+                <li><a href="#Goal">Goal</a></li>
+                <li><a href="#Theory">Theory</a></li>
+                <li><a href="#Procedure">Procedure</a></li>
+                <li><a href="#Analysis">Analysis</a></li>
+                <li><a href="#Conclusion">Conclusion</a></li>
+            </ul>
+        <h2>Introducing Volumetric Techniques by Analyzing Bleaching Solutions</h2>
+        <h3 id="Goal">Goal</h3>
+        <p>
+            Develop techniques for volume measurements using a buret, pipet, and volumetric flask. Perform a dilution and
+            then a titration to determine the percent sodium hypochlorite in a commercial bleaching solution.
+        </p>
+        <h3 id="Theory">Theory</h3>
+        <p>
+              The reaction of diluted bleach with KI solution in an acidic solution of HCl will reduce the OCl<sup>-</sup>
+              to the Cl<sup>-</sup>  ion. The excess I<sup>-</sup>  ions will form I<sub>2</sub> (colored brown), and the
+              solution will then be titrated with a Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub> solution of known concentration.
+              A bit of starch solution will be added when the titration mixture turns from brown to pale yellow, which will
+              turn the titration mixture deep blue. The end point of the titration will be determined as the moment when the
+              titration mixture becomes colorless. The amount of Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub> used will allow us
+              to calculate the amount of I<sub>2</sub> present, from which we can then determine the amount of Cl<sup>-</sup>
+              ions, and thereby OCl<sup>-</sup> ions present in the diluted bleaching sample. Based on the ratio of one Na
+              ion for each OCl<sup>-</sup> ion, the mass of NaOCl in the diluted bleaching sample can be calculated. Based
+              on the mass of NaOCl, the volume of the bleaching sample used, and the density of the bleaching sample, the
+              percent sodium hypochlorite (NaOCl) in the commercial bleach can be determined.
+        </p>
+        <h3 id="Procedure">Procedure</h3>
+            <ol>
+                <li>Rinse the buret and funnel with 5 mL of Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub> solution twice.</li>
+                <li>Fill the buret with Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub> solution higher than the 0-mL line. Eliminate
+                    air bubbles and record initial volume</li>
+                <li>Rinse the pipet with bleaching solution twice.</li>
+                <li>Use a pipet to transfer 10.00 mL of bleaching solution to a 100 mL volumetric flask.</li>
+                <li>Fill the volumetric flask with distilled water, until the meniscus reaches the 100 mL calibration line.
+                    Mix the solution by inverting the stoppered flask fifteen times.</li>
+                <li>Use a 100 mL graduated cylinder to transfer 100 mL of water to a 250 mL Erlenmeyer flask.</li>
+                <li>Use a 100 mL graduated cylinder to transfer 10 mL of 10% KI solution to the 250 mL Erlenmeyer flask.</li>
+                <li>Use a transfer pipet to add 25 mL of diluted bleaching solution to the 250 mL Erlenmeyer flask.</li>
+                <li>Use a graduated cylinder to add 4 mL of 6M HCl solution to the 250 mL Erlenmeyer flask.</li>
+                <li>Immediately place the flask under the buret and begin adding drops of the Na2S2O3 solution, while gently
+                    swirling the flask.</li>
+                <li>As soon as the titration mixture turns pale yellow, add 1 mL of starch solution.</li>
+                <li>Add Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub> solution dropwise until the blue color disappears</li>
+                <li>Record the final buret reading to calculate the amount of Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub> solution
+                    needed for titration</li>
+            </ol>
+        <h3 id="Analysis">Analysis</h3>
+        <p>
+            There were many sources of possible error in this experiment.
+        </p>
+            <ul>
+                <li>Possible sources of systematic error include:
+                    <ul>
+                        <li>Equipment was not properly cleaned or dried between uses, allowing tiny drops to tamper the measurements.</li>
+                        <li>Diluted samples were not mixed perfectly, affecting the results of the titration.</li>
+                        <li>The time it took to place the Erlenmeyer flask under the buret and begin titration from when the HCl was
+                            added allowed for I<sub>2</sub> to be released by a reaction with O<sub>2</sub> and affect the volume needed
+                            or titration.</li>
+                    </ul>
+                </li>
+                <li>Possible sources of human error include:
+                     <ul>
+                        <li>Measurements were not calculated perfectly when using the buret, transfer pipet, volumetric flask, or
+                            graduated cylinder.</li>
+                        <li>Solution was over-titrated, leading to incorrect calculations of volume of Na<sub>2</sub>S<sub>2</sub>O<sub>3</sub>
+                            solution needed for titration.</li>
+                     </ul>
+                </li>
+            </ul>
+        <p>
+            The experiment was only executed once to completion, so we were unable to compare data or calculate a mean percent.
+            Two titration solution were accidentally over-titrated and were not included in the results, and we were unable to
+            find a properly working transfer pipet to complete an additional titration. The extremely low percent of NaOCl
+            determined seems to indicate a serious error in this experiment, possibly an issue regarding the sample of bleaching
+            solution used. It may have been contamination, improper dilution, or another possible error that led to our results.
+        </p>
+        <h3 id="Conclusion">Conclusion</h3>
+        <p>
+            The percent NaOCl in commercial bleaching solution was determined to be 0.22 %.
+        </p>
+        <a class="jump" href="#Top">Back to Top</a>
+    </div>
+
+{% endblock %}
